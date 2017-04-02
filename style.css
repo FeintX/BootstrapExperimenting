@@ -1,0 +1,40 @@
+body {
+	padding-top: 50px;
+}
+
+.navbar {
+	background-color: #BAF;
+}
+
+.jumbotron {
+	font-family: 'Impact', cursive;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #FF1070;
+
+	color: #FFF;
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.7),
+		rgba(0, 0, 0, 0.7)
+		),
+		url("jumboimage.jpg");
+	background-color: #000;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+	border-top: 3px solid #FF1070;
+	border-bottom: 3px solid #FF1070;
+}
+
+.vertical-center {
+	display: flex;
+	align-items: center;
+}
+
+#jumbo-logo {
+	width: 100%;
+}
+
+.container-fluid {
+	background-color: #FFF;
+}
